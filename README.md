@@ -19,7 +19,9 @@ HTML, CSS, React
 Запустите сборку
 
 > npm run build (production)
-> npm run dev (development)
+
+> npm run start (development)
+
 > npm run deploy (deploy на GitHubPages - когда есть build)
 
 ### Автор:
