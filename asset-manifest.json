@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/test-jira-cloud/static/css/main.accaf0cc.chunk.css",
-    "main.js": "/test-jira-cloud/static/js/main.5643c10e.chunk.js",
-    "main.js.map": "/test-jira-cloud/static/js/main.5643c10e.chunk.js.map",
+    "main.css": "/test-jira-cloud/static/css/main.7ec05b82.chunk.css",
+    "main.js": "/test-jira-cloud/static/js/main.9bb5121a.chunk.js",
+    "main.js.map": "/test-jira-cloud/static/js/main.9bb5121a.chunk.js.map",
     "runtime-main.js": "/test-jira-cloud/static/js/runtime-main.aeb7e3db.js",
     "runtime-main.js.map": "/test-jira-cloud/static/js/runtime-main.aeb7e3db.js.map",
-    "static/js/2.2ac3af13.chunk.js": "/test-jira-cloud/static/js/2.2ac3af13.chunk.js",
-    "static/js/2.2ac3af13.chunk.js.map": "/test-jira-cloud/static/js/2.2ac3af13.chunk.js.map",
+    "static/js/2.e954c884.chunk.js": "/test-jira-cloud/static/js/2.e954c884.chunk.js",
+    "static/js/2.e954c884.chunk.js.map": "/test-jira-cloud/static/js/2.e954c884.chunk.js.map",
     "index.html": "/test-jira-cloud/index.html",
-    "static/css/main.accaf0cc.chunk.css.map": "/test-jira-cloud/static/css/main.accaf0cc.chunk.css.map",
-    "static/js/2.2ac3af13.chunk.js.LICENSE.txt": "/test-jira-cloud/static/js/2.2ac3af13.chunk.js.LICENSE.txt",
+    "static/css/main.7ec05b82.chunk.css.map": "/test-jira-cloud/static/css/main.7ec05b82.chunk.css.map",
+    "static/js/2.e954c884.chunk.js.LICENSE.txt": "/test-jira-cloud/static/js/2.e954c884.chunk.js.LICENSE.txt",
     "static/media/graph.scss": "/test-jira-cloud/static/media/arrow.c79fd5a1.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.aeb7e3db.js",
-    "static/js/2.2ac3af13.chunk.js",
-    "static/css/main.accaf0cc.chunk.css",
-    "static/js/main.5643c10e.chunk.js"
+    "static/js/2.e954c884.chunk.js",
+    "static/css/main.7ec05b82.chunk.css",
+    "static/js/main.9bb5121a.chunk.js"
   ]
 }
