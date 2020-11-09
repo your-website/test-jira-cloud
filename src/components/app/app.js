@@ -6,9 +6,9 @@ import Forecasts from "../forecasts";
 const App = () => {
 
   return (
-      <main role="main" className="app">
-        <Forecasts />
-      </main>
+    <main role="main" className="app">
+      <Forecasts />
+    </main>
   );
 };
 

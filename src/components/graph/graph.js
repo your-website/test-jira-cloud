@@ -9,12 +9,12 @@ class Graph extends Component {
 
   componentDidMount() {
     const { data } = this.props;
-    const newRange = funcRanges(data)
+    const newRange = funcRanges(data);
 
     const newArray = data.map((ele, index) => {
-      ele.newRanges = newRange[index]
+      ele.newRanges = newRange[index];
       return ele
-    })
+    });
 
     this.props.setRangesGraph(newArray)
   }
@@ -34,7 +34,7 @@ class Graph extends Component {
           rgba(119, 195, 247, 1) 100%
         )`
       }
-    )
+    );
 
     return (
       <div className="graph">
@@ -62,10 +62,10 @@ class Graph extends Component {
 
 const mapStateToProps = ({ data }) => {
   return { data }
-}
+};
 
 const mapDispatchToProps = {
   setRangesGraph
-}
+};
 
 export default connect(mapStateToProps, mapDispatchToProps)(Graph)
