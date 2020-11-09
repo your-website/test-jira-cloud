@@ -23,8 +23,7 @@ const reducer = (state = initialState, action) => {
   switch (action.type) {
     case 'SET_RANGES_GRAPH': {
       return {
-        data: action.payload,
-        ranges: state.ranges,
+        data: action.payload
       }
     }
 
