@@ -1,4 +1,4 @@
-- ДЕМО: https://your-website.github.io/test-jira-cloud/
+- DEMO: https://your-website.github.io/test-jira-cloud/
 
 ### Используемые технологии
 
