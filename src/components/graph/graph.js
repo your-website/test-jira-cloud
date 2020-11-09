@@ -11,13 +11,16 @@ class Graph extends Component {
     const { data } = this.props;
     const newRange = funcRanges(data)
 
-    this.props.setRangesGraph(newRange)
+    const newArray = data.map((ele, index) => {
+      ele.newRanges = newRange[index]
+      return ele
+    })
+
+    this.props.setRangesGraph(newArray)
   }
 
   render() {
-    const { data, ranges } = this.props;
-
-    console.log(ranges)
+    const { data } = this.props;
 
     const styleRanges = ([firstRange, finalRange]) => (
       {
@@ -40,7 +43,7 @@ class Graph extends Component {
             return (
               <React.Fragment key={index}>
                 <h3 className="graph__content-title">{ ele.title }</h3>
-                <div className="graph__box" style={ styleRanges(ranges[index]) }>
+                <div className="graph__box" style={ styleRanges(ele.newRanges) }>
                   <div className="graph__line" style={{width: `${ele.forecast * 2}%`}}></div>
                   <div className="graph__icon" style={{width: `${ele.forecast * 2}%`}}></div>
                 </div>

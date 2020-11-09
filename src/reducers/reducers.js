@@ -16,16 +16,15 @@ const initialState = {
       maxValue: '2.4k',
       newRanges: []
     }
-  ],
-  ranges: [[], []],
+  ]
 }
 
 const reducer = (state = initialState, action) => {
   switch (action.type) {
     case 'SET_RANGES_GRAPH': {
       return {
-        data: state.data,
-        ranges: action.payload,
+        data: action.payload,
+        ranges: state.ranges,
       }
     }
 
