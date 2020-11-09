@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import Graph from '../graph/graph';
 import './style/forecasts.scss'
 

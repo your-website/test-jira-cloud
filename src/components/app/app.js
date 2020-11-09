@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 import './app.css';
 
-import Forecasts from "../forecasts";
+import Forecasts from '../forecasts';
 
 const App = () => {
 

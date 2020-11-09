@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 import { funcRanges } from '../../utils'
 import { connect } from 'react-redux'
 import { setRangesGraph } from '../../actions'
