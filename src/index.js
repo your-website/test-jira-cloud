@@ -6,7 +6,7 @@ import './index.css';
 import App from './components/app';
 import ErrorBoundry from './components/error-boundry'
 
-import store from './store/store'
+import store from './store'
 
 ReactDOM.render(
   <React.StrictMode>
