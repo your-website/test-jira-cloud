@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import funcRanges from '../../utils/funcRanges'
+import { funcRanges } from '../../utils'
 import { connect } from 'react-redux'
-import { setRangesGraph } from '../../actions/actions.js'
+import { setRangesGraph } from '../../actions'
 
 import './style/graph.scss'
 
