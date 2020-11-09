@@ -60,8 +60,8 @@ class Graph extends Component {
   }
 }
 
-const mapStateToProps = ({ data, ranges }) => {
-  return { data, ranges }
+const mapStateToProps = ({ data }) => {
+  return { data }
 }
 
 const mapDispatchToProps = {
