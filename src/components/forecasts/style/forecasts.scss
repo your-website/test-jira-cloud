@@ -1,0 +1,13 @@
+@import "./__container-value/forecasts__container-value.scss";
+@import "./__container/forecasts__container.scss";
+@import "./__content-subtitle/forecasts__content-subtitle.scss";
+@import "./__content-title/forecasts__content-title.scss";
+@import "./__graph/forecasts__graph.scss";
+@import "./__icon/forecasts__icon.scss";
+@import "./__line/forecasts__line.scss";
+@import "./__paragraph/forecasts__paragraph.scss";
+
+.forecasts {
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgb(172, 171, 171);
+}

@@ -1,0 +1,10 @@
+.forecasts__line {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  border-top: 2px dashed #fff;
+  display: block;
+  height: 20px;
+  color: red;
+}
