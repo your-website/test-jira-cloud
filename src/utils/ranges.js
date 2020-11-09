@@ -23,10 +23,6 @@ data.map(ele => {
   }
 
   firstRange = firstRange === null ? ele.ranges[0] + ele.ranges[1] : firstRange
-  const final = [];
-  final.push(firstRange)
-  final.push(finalRange)
-
   return [ firstRange, finalRange ]
 })
 

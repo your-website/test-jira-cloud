@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ForecastsGraph from './style/__graph/forecasts-graph'
+import Graph from '../graph/graph';
 
 import './style/forecasts.scss'
 
@@ -30,7 +30,9 @@ export default class Forecasts extends Component {
     return (
         <div className="forecasts">
           <h2 className="forecasts__content-title">FORECASTS</h2>
-          <ForecastsGraph data={ data } />
+          <div className="forecasts__container">
+            <Graph data={ data } />
+          </div>
         </div>
     )
   }
