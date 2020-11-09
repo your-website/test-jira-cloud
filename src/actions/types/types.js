@@ -1,0 +1,3 @@
+const SET_RANGES_GRAPH = 'SET_RANGES_GRAPH'
+
+export { SET_RANGES_GRAPH }

@@ -1,11 +1,24 @@
-import React from "react";
-import ranges from '../../utils/ranges'
-import './style/graph.scss';
+import React, { Component } from "react";
+import funcRanges from '../../utils/funcRanges'
+import { connect } from 'react-redux'
+import { setRangesGraph } from '../../actions/actions.js'
 
-const Graph = ({ data }) => {
+import './style/graph.scss'
 
-    const rangesData = ranges(data)
-  
+class Graph extends Component {
+
+  componentDidMount() {
+    const { data } = this.props;
+    const newRange = funcRanges(data)
+
+    this.props.setRangesGraph(newRange)
+  }
+
+  render() {
+    const { data, ranges } = this.props;
+
+    console.log(ranges)
+
     const styleRanges = ([firstRange, finalRange]) => (
       {
         background: `linear-gradient(
@@ -19,7 +32,7 @@ const Graph = ({ data }) => {
         )`
       }
     )
-    
+
     return (
       <div className="graph">
         {
@@ -27,7 +40,7 @@ const Graph = ({ data }) => {
             return (
               <React.Fragment key={index}>
                 <h3 className="graph__content-title">{ ele.title }</h3>
-                <div className="graph__box" style={ styleRanges(rangesData[index]) }>
+                <div className="graph__box" style={ styleRanges(ranges[index]) }>
                   <div className="graph__line" style={{width: `${ele.forecast * 2}%`}}></div>
                   <div className="graph__icon" style={{width: `${ele.forecast * 2}%`}}></div>
                 </div>
@@ -42,5 +55,14 @@ const Graph = ({ data }) => {
       </div>
     )
   }
+}
 
-  export default Graph
+const mapStateToProps = ({ data, ranges }) => {
+  return { data, ranges }
+}
+
+const mapDispatchToProps = {
+  setRangesGraph
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Graph)

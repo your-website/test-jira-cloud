@@ -6,7 +6,7 @@ import Forecasts from "../forecasts";
 const App = () => {
 
   return (
-      <main role="main" className="container">
+      <main role="main" className="app">
         <Forecasts />
       </main>
   );
