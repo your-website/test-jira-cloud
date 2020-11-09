@@ -5,6 +5,6 @@ const setRangesGraph = (newRanges) => {
     type: SET_RANGES_GRAPH,
     payload: newRanges
   }
-}
+};
 
 export { setRangesGraph }
